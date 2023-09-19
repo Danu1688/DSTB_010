@@ -1,4 +1,17 @@
 proxies:
+- name: IpungMandiri_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 481a035c-de6a-4071-8dcf-398315202e0d
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: Ipung3Mandiri_LiveDO_1
   type: trojan
   server: circles.asia
